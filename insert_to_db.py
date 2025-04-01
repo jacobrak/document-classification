@@ -11,9 +11,8 @@ for filename in os.listdir(data_folder):
     if filename.endswith(".txt"):
         with open(os.path.join(data_folder, filename), "r", encoding="utf-8") as file:
             text = file.read()
-            classification =  
-
+            classification = int(filename.startswith("w")) 
 
         # Insert into MongoDB
-        collection.insert_one({"filename": filename, "text": text})
+        collection.insert_one({"filename": filename, "text": text, "label":classification})
 print("done")
