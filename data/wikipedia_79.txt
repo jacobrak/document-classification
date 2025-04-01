@@ -1,0 +1,24 @@
+Ruthenium hexafluoride, also ruthenium(VI) fluoride (RuF6), is a compound of ruthenium and fluorine and one of the seventeen known binary hexafluorides.
+
+
+== History and synthesis ==
+Ruthenium hexafluoride was discovered by American radiochemists in 1961, soon after the discovery of technetium hexafluoride. It is made by a direct reaction of ruthenium metal in a gas stream of fluorine and argon at 400–450 °C. The yields of this reaction are less than 10%.
+
+Ru + 3 F2 → RuF6
+
+
+== Description ==
+Ruthenium hexafluoride is a dark brown crystalline solid that melts at 54 °C. The solid structure measured at −140 °C is orthorhombic space group Pnma. Lattice parameters are a = 9.313 Å, b = 8.484 Å, and c = 4.910 Å. There are four formula units (in this case, discrete molecules) per unit cell, giving a density of 3.68 g·cm−3.
+The RuF6 molecule itself (the form important for the liquid or gas phase) has octahedral molecular geometry, which has point group (Oh).  The Ru–F bond length is 1.818 Å.
+
+
+== References ==
+
+
+== Further reading ==
+Gmelins Handbuch der anorganischen Chemie, System Nr. 63, Ruthenium, Supplement, pp. 266–268.
+
+
+== External links ==
+ Media related to Ruthenium hexafluoride at Wikimedia Commons
+Ruthenium hexafluoride at webelements.com.

@@ -1,0 +1,534 @@
+In mathematics, a uniformly smooth space is a normed vector space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ satisfying the property that for every 
+  
+    
+      
+        ϵ
+        >
+        0
+      
+    
+    {\displaystyle \epsilon >0}
+  
+ there exists 
+  
+    
+      
+        δ
+        >
+        0
+      
+    
+    {\displaystyle \delta >0}
+  
+ such that if 
+  
+    
+      
+        x
+        ,
+        y
+        ∈
+        X
+      
+    
+    {\displaystyle x,y\in X}
+  
+ with 
+  
+    
+      
+        ‖
+        x
+        ‖
+        =
+        1
+      
+    
+    {\displaystyle \|x\|=1}
+  
+ and 
+  
+    
+      
+        ‖
+        y
+        ‖
+        ≤
+        δ
+      
+    
+    {\displaystyle \|y\|\leq \delta }
+  
+ then
+
+  
+    
+      
+        ‖
+        x
+        +
+        y
+        ‖
+        +
+        ‖
+        x
+        −
+        y
+        ‖
+        ≤
+        2
+        +
+        ϵ
+        ‖
+        y
+        ‖
+        .
+      
+    
+    {\displaystyle \|x+y\|+\|x-y\|\leq 2+\epsilon \|y\|.}
+  
+
+The modulus of smoothness of a normed space X is the function ρX defined for every t > 0 by the formula
+
+  
+    
+      
+        
+          ρ
+          
+            X
+          
+        
+        (
+        t
+        )
+        =
+        sup
+        
+          
+            {
+          
+        
+        
+          
+            
+              ‖
+              x
+              +
+              y
+              ‖
+              +
+              ‖
+              x
+              −
+              y
+              ‖
+            
+            2
+          
+        
+        −
+        1
+        
+        :
+        
+        ‖
+        x
+        ‖
+        =
+        1
+        ,
+        
+        ‖
+        y
+        ‖
+        =
+        t
+        
+          
+            }
+          
+        
+        .
+      
+    
+    {\displaystyle \rho _{X}(t)=\sup {\Bigl \{}{\frac {\|x+y\|+\|x-y\|}{2}}-1\,:\,\|x\|=1,\;\|y\|=t{\Bigr \}}.}
+  
+
+The triangle inequality yields that ρX(t ) ≤ t.  The normed space X is uniformly smooth if and only if ρX(t ) / t tends to 0 as t tends to 0.
+
+
+== Properties ==
+Every uniformly smooth Banach space is reflexive.
+A Banach space 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+ is uniformly smooth if and only if its continuous dual 
+  
+    
+      
+        
+          X
+          
+            ∗
+          
+        
+      
+    
+    {\displaystyle X^{*}}
+  
+ is uniformly convex (and vice versa, via reflexivity). The moduli of convexity and smoothness are linked by
+
+  
+    
+      
+        
+          ρ
+          
+            
+              X
+              
+                ∗
+              
+            
+          
+        
+        (
+        t
+        )
+        =
+        sup
+        {
+        t
+        ε
+        
+          /
+        
+        2
+        −
+        
+          δ
+          
+            X
+          
+        
+        (
+        ε
+        )
+        :
+        ε
+        ∈
+        [
+        0
+        ,
+        2
+        ]
+        }
+        ,
+        
+        t
+        ≥
+        0
+        ,
+      
+    
+    {\displaystyle \rho _{X^{*}}(t)=\sup\{t\varepsilon /2-\delta _{X}(\varepsilon ):\varepsilon \in [0,2]\},\quad t\geq 0,}
+  
+
+and the maximal convex function majorated by the modulus of convexity δX is given by
+
+  
+    
+      
+        
+          
+            
+              
+                δ
+                ~
+              
+            
+          
+          
+            X
+          
+        
+        (
+        ε
+        )
+        =
+        sup
+        {
+        ε
+        t
+        
+          /
+        
+        2
+        −
+        
+          ρ
+          
+            
+              X
+              
+                ∗
+              
+            
+          
+        
+        (
+        t
+        )
+        :
+        t
+        ≥
+        0
+        }
+        .
+      
+    
+    {\displaystyle {\tilde {\delta }}_{X}(\varepsilon )=\sup\{\varepsilon t/2-\rho _{X^{*}}(t):t\geq 0\}.}
+  
+
+Furthermore,
+
+  
+    
+      
+        
+          δ
+          
+            X
+          
+        
+        (
+        ε
+        
+          /
+        
+        2
+        )
+        ≤
+        
+          
+            
+              
+                δ
+                ~
+              
+            
+          
+          
+            X
+          
+        
+        (
+        ε
+        )
+        ≤
+        
+          δ
+          
+            X
+          
+        
+        (
+        ε
+        )
+        ,
+        
+        ε
+        ∈
+        [
+        0
+        ,
+        2
+        ]
+        .
+      
+    
+    {\displaystyle \delta _{X}(\varepsilon /2)\leq {\tilde {\delta }}_{X}(\varepsilon )\leq \delta _{X}(\varepsilon ),\quad \varepsilon \in [0,2].}
+  
+
+A Banach space is uniformly smooth if and only if the limit
+
+  
+    
+      
+        
+          lim
+          
+            t
+            →
+            0
+          
+        
+        
+          
+            
+              ‖
+              x
+              +
+              t
+              y
+              ‖
+              −
+              ‖
+              x
+              ‖
+            
+            t
+          
+        
+      
+    
+    {\displaystyle \lim _{t\to 0}{\frac {\|x+ty\|-\|x\|}{t}}}
+  
+
+exists uniformly for all 
+  
+    
+      
+        x
+        ,
+        y
+        ∈
+        
+          S
+          
+            X
+          
+        
+      
+    
+    {\displaystyle x,y\in S_{X}}
+  
+ (where 
+  
+    
+      
+        
+          S
+          
+            X
+          
+        
+      
+    
+    {\displaystyle S_{X}}
+  
+ denotes the unit sphere of 
+  
+    
+      
+        X
+      
+    
+    {\displaystyle X}
+  
+).
+When  1 < p < ∞, the Lp-spaces are uniformly smooth (and uniformly convex).
+Enflo proved 
+that the class of Banach spaces that admit an equivalent uniformly convex norm coincides with the class of super-reflexive Banach spaces, introduced by Robert C. James.  
+As a space is super-reflexive if and only if its dual is super-reflexive, it follows that the class of Banach spaces that admit an equivalent uniformly convex norm coincides with the class of spaces that admit an equivalent uniformly smooth norm.  The Pisier renorming theorem 
+states that a super-reflexive space X admits an equivalent uniformly smooth norm for which the modulus of smoothness ρX satisfies, for some constant C and some p > 1
+
+  
+    
+      
+        
+          ρ
+          
+            X
+          
+        
+        (
+        t
+        )
+        ≤
+        C
+        
+        
+          t
+          
+            p
+          
+        
+        ,
+        
+        t
+        >
+        0.
+      
+    
+    {\displaystyle \rho _{X}(t)\leq C\,t^{p},\quad t>0.}
+  
+
+It follows that every super-reflexive space Y admits an equivalent uniformly convex norm for which the modulus of convexity satisfies, for some constant c > 0 and some positive real q
+
+  
+    
+      
+        
+          δ
+          
+            Y
+          
+        
+        (
+        ε
+        )
+        ≥
+        c
+        
+        
+          ε
+          
+            q
+          
+        
+        ,
+        
+        ε
+        ∈
+        [
+        0
+        ,
+        2
+        ]
+        .
+      
+    
+    {\displaystyle \delta _{Y}(\varepsilon )\geq c\,\varepsilon ^{q},\quad \varepsilon \in [0,2].}
+  
+
+If a normed space admits two equivalent norms, one uniformly convex and one uniformly smooth, the Asplund averaging technique produces another equivalent norm that is both uniformly convex and uniformly smooth.
+
+
+== See also ==
+Uniformly convex space
+
+
+== Notes ==
+
+
+== References ==
+Diestel, Joseph (1984), Sequences and series in Banach spaces, Graduate Texts in Mathematics, vol. 92, New York: Springer-Verlag, pp. xii+261, ISBN 0-387-90859-5
+Itô, Kiyosi (1993), Encyclopedic Dictionary of Mathematics, Volume 1, MIT Press, ISBN 0-262-59020-4  [1]
+Lindenstrauss, Joram; Tzafriri, Lior (1979), Classical Banach spaces. II. Function spaces, Ergebnisse der Mathematik und ihrer Grenzgebiete [Results in Mathematics and Related Areas], vol. 97, Berlin-New York: Springer-Verlag, pp. x+243, ISBN 3-540-08888-1.

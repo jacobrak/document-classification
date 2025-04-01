@@ -43,7 +43,7 @@ def get_wikipedia_page(title):
 def data_to_text(data: list):
     for i, title in enumerate(data):
         article = get_wikipedia_page(title)
-        with open(f"data/wikipedia_{i + 1}", "w", encoding="utf-8") as file:
+        with open(f"data/wikipedia_{i + 1}.txt", "w", encoding="utf-8") as file:
             file.write(article)
 
 # Main

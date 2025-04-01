@@ -10,8 +10,10 @@ data_folder = "data"
 for filename in os.listdir(data_folder):
     if filename.endswith(".txt"):
         with open(os.path.join(data_folder, filename), "r", encoding="utf-8") as file:
-            story_text = file.read()
+            text = file.read()
+            classification =  
+
 
         # Insert into MongoDB
-        collection.insert_one({"filename": filename, "story": story_text})
+        collection.insert_one({"filename": filename, "text": text})
 print("done")
